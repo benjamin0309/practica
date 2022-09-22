@@ -1,0 +1,199 @@
+/*   ---------------------  HEADER -----------------------   */
+
+#header {
+    width: 100%;
+    display: flex;
+}
+
+#header #logo_bonanza {}
+
+#header #barra_lista {
+    padding-right: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#header #barra_lista ul {
+    margin: 0%;
+}
+
+#header #barra_lista ul li {
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#logo_bonanza {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#header #barra_lista ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 136, 0);
+}
+
+
+/*   ---------------------  MAIN -----------------------   */
+
+
+/*   ---------------------  CARTAS -----------------------   */
+
+#titulo_cartas {
+    padding: 0;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 2.6px white;
+    color: rgb(255, 136, 0);
+    border-top: 2px solid rgb(255, 208, 0);
+}
+
+#cartas {
+    display: grid;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: [x1] 1fr [x2] 1fr [x3] 1fr [x4];
+    gap: 40px;
+}
+
+#plato_1 {
+    grid-column-start: x1;
+    grid-column-end: x2;
+}
+
+#plato_2 {
+    grid-column-start: x2;
+    grid-column-end: x3;
+}
+
+#plato_3 {
+    grid-column-start: x3;
+    grid-column-end: x4;
+}
+
+.img_platos {
+    width: 100%;
+}
+
+
+/*   ---------------------  CARTAS ....... VENTANAS FLOTANTES -----------------------   */
+
+.plato_flotante {   
+    width: 100%;    
+    position: fixed;    
+    background-color: rgba(0, 0, 0, 0.781); 
+    height: auto;           
+
+}
+
+
+
+
+/*   ---------------------  PROMOCIONES -----------------------   */
+
+#fondo1 {
+    margin-top: 10px;
+    width: 100%;
+    height: 458px;
+    border-top: 2px solid rgb(255, 208, 0);
+}
+
+#titulo_promociones {
+    padding: 0;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 2.6px white;
+    color: rgb(255, 136, 0);
+    border-top: 2px solid rgb(255, 208, 0);
+}
+
+#promociones {
+    display: grid;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: [x1] 1fr [x2] 1fr [x3] 1fr [x4];
+    gap: 40px;
+}
+
+#promo_1 {
+    grid-column-start: x1;
+    grid-column-end: x2;
+}
+
+#promo_2 {
+    grid-column-start: x2;
+    grid-column-end: x3;
+}
+
+#promo_3 {
+    grid-column-start: x3;
+    grid-column-end: x4;
+}
+
+
+/*#promo_4{
+    grid-column-start: x4;
+    grid-column-end: x5;        
+ 
+} */
+
+.img_promos {
+    width: 100%;
+}
+
+
+/*   ---------------------  UBICACIONES -----------------------   */
+
+#titulo_ubicacion {
+    padding-bottom: 20px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke: 2.6px white;
+    color: rgb(255, 136, 0);
+    border-top: 2px solid rgb(255, 208, 0);
+}
+
+#ubicaciones {
+    display: grid;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: [x1] 1fr [x2] 1fr [x3] 1fr [x4];
+    gap: 40px;
+    text-align: center;
+}
+
+#google_maps {
+    grid-column-start: x1;
+    grid-column-end: x2;
+}
+
+#delivery {
+    grid-column-start: x2;
+    grid-column-end: x3;
+}
+
+#redes_sociales {
+    grid-column-start: x3;
+    grid-column-end: x4;
+}
+
+
